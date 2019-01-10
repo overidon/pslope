@@ -1,0 +1,215 @@
+body {
+  font-family:  "Arial Black", Gadget, sans-serif;
+  padding: 2em;
+  background-color: whitesmoke;
+}
+
+h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 2.5em;
+}
+
+
+
+.master-area{
+		display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap; 
+}
+.data-entry{
+	width: 50%;
+	
+}
+
+.grid-export{
+	width: 50%;
+}
+
+
+.colortest{
+	
+	display: flex;
+
+	justify-content: flex-start;
+	flex-wrap: flex; 
+}
+.color-value{
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: red;
+}
+
+.color-locked{
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: green;
+}
+
+.color-xin{
+		border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: coral;
+}
+
+.xgrid{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap; 
+	
+}
+
+.xgridhtml{
+	text-align: center; 
+	border: 5px solid #90E5D7;
+	height: 100px;
+    width: 100px;
+	background-color: aquamarine;
+}
+
+.xgridlocked0{
+	
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: olive;
+}
+
+.xgridlocked1{
+	
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: olive;
+}
+
+.xgridlocked2{
+	
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: olive;
+}
+
+.xgridlocked3{
+	
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: olive;
+}
+
+.xgridlocked4{
+	
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: olive;
+}
+.xgridunlocked0{
+	
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: #2C9669;
+	
+}
+
+.evalslope{
+	
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: #5971FC;
+}
+
+.evalslope2{
+	
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: #ADD0F5;
+}
+
+.xgridunlocked1{
+	
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: #2C9669;
+}
+
+.xgridunlocked2{
+	
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: #2C9669;
+}
+
+.xgridunlocked3{
+	
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: #2C9669;
+}
+
+.xgridunlocked4{
+	
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: #2C9669;
+}
+
+.gridlockedwide{
+	display: flex;
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 79%;
+	background-color: #84F3E7;
+}
+
+
+
+.xreplyhtml{
+	
+	border: 5px solid #90E5D7;
+	text-align: center; 
+	height: 100px;
+    width: 100px;
+	background-color: #D2EE34;
+}
+
+.buttonclicker{
+	
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.button-html{
+	background-color: aqua;
+}
+
+
+
