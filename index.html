@@ -1,0 +1,289 @@
+
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<meta charset="utf-8">
+	<title>index.html</title>
+</head>
+
+<body>
+
+	<div>
+		<h1>POINT SLOPE EVALUATOR</h1>
+		<p> (y<sub>0</sub> - y<sub>1</sub>) = m(x<sub>0</sub> - x<sub>1</sub>)</p>
+		
+		<p> 
+	<!-- begin reactive formula code -->
+		(<span id="y0dupe">y<sub>0</sub></span> -
+	<!-- move onto the y1 variable-->
+		<span id="y1dupe">y<sub>1</sub></span>) =
+	<!-- move onto the slope or 'm' variable-->
+		<span id="mslopedupe">m</span>(<span id="x0dupe">x<sub>0</sub></span>
+
+		- <span id="x1dupe">x<sub>1</sub></span>)
+	
+		
+		
+		
+		</p>
+	</div>
+	
+<div class="master-area">	
+	<div class="data-entry">
+	<div class="colortest">
+		<div class="color-xin">
+
+			<h4> var</h4>
+			
+		</div>	
+		<div class="color-value">
+
+			<h4> value</h4>
+			
+		</div>	
+		
+		<div class="color-locked">
+
+			<h4> locked</h4>
+			
+		</div>			
+	</div>
+	
+	<div class="xgrid">
+		<div class="xgridhtml">
+			<h1>x<sub>0</sub></h1>
+			
+		</div>
+		
+		<div class="xreplyhtml">
+			<h1><input type="text" id="x0" value="0" size="4"></h1>
+			
+		</div>
+		<div class="xgridlocked0">
+			<h1><span id="x0lockedconf">Y</span></h1>
+			
+		</div>		
+	
+	</div>		
+	
+	<div class="xgrid">
+		<div class="xgridhtml">
+			<h1>x<sub>1</sub></h1>
+			
+		</div>
+		
+		
+		
+			<div class="xreplyhtml">
+			<h1><input type="text" id="x1" value="0" size="4"></h1>
+			
+			</div>
+		<div class="xgridlocked1">
+			<h1><span id="x1lockedconf">Y</span></h1>
+			
+		</div>				
+			
+	</div>	
+	
+	<div class="xgrid">
+	<div class="xgridhtml">
+			<h1>y<sub>0</sub></h1>
+			
+		</div>
+		
+			<div class="xreplyhtml">
+			<h1><input type="text" id="y0" value="0" size="4"></h1>
+			
+		</div>
+		<div class="xgridlocked2">
+			<h1><span id="y0lockedconf">Y</span></h1>
+			
+		</div>	
+	
+	</div>		
+	
+	<div class="xgrid">
+		<div class="xgridhtml">
+			<h1>y<sub>1</sub></h1>
+			
+		</div>
+		
+		
+		
+			<div class="xreplyhtml">
+			<h1><input type="text" id="y1" value="0" size="4"></h1>
+			
+			</div>
+			
+		<div class="xgridlocked3">
+			<h1><span id="y1lockedconf">Y</span></h1>
+			
+		</div>				
+			
+	</div>				
+	
+	<div class="xgrid">
+		<div class="xgridhtml">
+			<h1>m</h1>
+			
+		</div>
+		
+		
+		
+			<div class="xreplyhtml">
+			<h1><input type="text" id="mslope" value="0" size="4"></h1>
+			
+			</div>
+			
+		<div class="xgridlocked4">
+			<h1>Y</h1>
+			
+		</div>	
+		
+		<div class="evalslope">
+			<h4><p>Slope</p>Eval</h4>
+			
+		</div>		
+		
+		<div class="evalslope2">
+			<h3><span id="slopeproper">m</span></h3>
+			
+		</div>																	
+			
+	</div>		
+	
+	<div class="buttonclicker">
+		<div class="button-html">
+			<h1>click:  </h1>
+			
+		</div>	
+	</div>	
+	
+	
+		<!-- translation description code -->
+	<div class="xgrid">
+		<div class="xgridhtml">
+			<h1>f(x)=</h1>
+			
+		</div>
+		
+		
+		
+			<div class="xreplyhtml">
+			<h4>coefficient</h4>
+			
+			</div>
+			
+		<div class="xgridlocked4">
+			<h4>variable</h4>
+			
+		</div>	
+		
+		<div class="evalslope">
+			<h4>exponent</h4>
+			
+		</div>		
+		
+		<div class="evalslope2">
+			<h3>end term</h3>
+			
+		</div>																	
+			
+	</div>	
+	
+		
+			
+				
+		<!-- begin term access code -->
+	<div class="xgrid">
+		<div class="xgridhtml">
+			<h1>f(x)=</h1>
+			
+		</div>
+		
+		
+		
+			<div class="xreplyhtml">
+			<h1><input type="text" id="coef1a" value="1" size="4"></h1>
+			
+			</div>
+			
+		<div class="xgridlocked4">
+			<h1><input type="text" id="var1a" value="x" size="4"></h1>
+			
+		</div>	
+		
+		<div class="evalslope">
+			<h1><input type="text" id="exp1a" value="1" size="4"></h1>
+			
+		</div>		
+		
+		<div class="evalslope2">
+			<h3>end term</h3>
+			
+		</div>																	
+			
+	</div>	
+	
+		<!-- translation description code -->
+	<div class="xgrid">
+		<div class="xgridhtml">
+			<h1>f(x)=</h1>
+
+		</div>
+		
+			<!-- translation the code and turn it into text code -->
+
+		<div class="gridlockedwide">
+		<p> 
+	<!-- begin coefficient  code -->
+		<span id="coef1adupe">1</span>
+	<!-- move onto the y1 variable-->
+		<span id="var1adupe">x</span>
+	<!-- move onto the slope or 'm' variable-->
+		<sup><span id="exp1adupe">1</span></sup>
+	
+		
+		
+		
+		</p>
+
+		</div>		
+			
+																
+			
+	</div>												
+</div>
+
+<div class="grid-export">
+	<canvas id="myCanvas" width="601" height="601" style="border:1px solid #d3d3d3;">
+	Your browser does not support the HTML5 canvas tag.</canvas>
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="js/main.js"></script>
+
+	</div>
+
+<div> <h4> varpslopeVal build: 0.0.4.1 Alpha </h4></div>
+<div> <h4> 2017 overidon.com </h4></div>
+
+<!--
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.moveTo(0, 0);
+ctx.lineTo(450, 150);
+ctx.stroke();
+
+</script>
+-->
+
+</body>
+</html>
